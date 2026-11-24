@@ -1,100 +1,80 @@
 ---
 name: kid_papercraft_long_video
-description: Create a brand-new 3, 5 or 8-minute origami stop-motion LONG story video / episode for kids (YouTube, TV, tablet) with SpongeBob, Peppa Pig, Ultraman, Paw Patrol or Doraemon. A complete episode with chapters, songs/repetition moments, a journey, teamwork and a gentle lesson — a different story every time, never birthday-only, never repeated. Outputs a full simple-English episode script plus ready-to-paste Gemini Omni Flash prompts, grouped by scene.
+version: 2.0
+description: Create a brand-new 3, 5 or 8-minute origami stop-motion LONG story episode for kids (YouTube, TV, tablet) with realistic talking characters, chaptered conversation scenes, a rubric-scored episode script and a full pro editing/mixing plan. A different story every time — never birthday-only, never repeated.
 ---
 
-# Kid Papercraft — Long Video Skill (3 / 5 / 8 Minutes)
+# Kid Papercraft — Long Video Skill v2 (3 / 5 / 8 Minutes)
 
-Use the Master Skill (`../../SKILL.md`) for: heroes, locked visual style,
-the Story Engine (a fresh story every time), kid-safety rules and output format.
-This file adds ONLY the long-form episode structure and prompt templates.
+Master Skill rules apply (Story Engine, Script Quality §6, Talking §7,
+Editing §8, Kid-Safety). This file adds long-form episode specifics.
 
-## 1. Choose the Length
+## 1. Length & Format
+| Length | Clips | Scenes | Use |
+|--------|-------|--------|-----|
+| 3 min | 18 × 10s | 6 × 3 clips | One adventure, one lesson |
+| 5 min | 30 × 10s | 10 × 3 clips | DEFAULT full episode |
+| 8 min | 48 × 10s | 12 × 4 clips | Big adventure / two lessons |
+**16:9 horizontal** unless asked otherwise. Generate one scene (3-4 clips) at a
+time; reuse the identical character description sentence in all clips.
 
-| Length | Clips (10s each) | Scenes | Best for |
-|--------|------------------|--------|----------|
-| 3 min | 18 clips | 6 scenes x 3 clips | One adventure, one lesson |
-| 5 min | 30 clips | 10 scenes x 3 clips | DEFAULT — a full episode |
-| 8 min | 48 clips | 12 scenes x 4 clips | Big adventure / two connected lessons |
+## 2. Episode Structure (5-min version — scale for 3/8)
+1. Opening Hook (in motion + big question, speaking close-up)
+2. Hello & Song (greeting song, audience joins)
+3. The Problem (a friend needs help)
+4. Journey — Place 1 (new friend, a clue)
+5. Funny Setback (plan goes silly-wrong; try-again beat)
+6. Journey — Place 2 (song reprise / learning moment: counting, colours, words)
+7. Teamwork Plan (each character contributes one small action)
+8. Big Happy Payoff (mirrors the opening scene)
+9. Lesson & Goodbye (lesson line twice, next-episode tease)
 
-Aspect ratio: **16:9 horizontal** unless the user asks for 9:16.
-Generate clips in Gemini Omni Flash one scene at a time (3-4 prompts per batch)
-so character and paper style stay consistent. Reuse the SAME character
-description sentence in every prompt of the episode.
+Retention: new place/character/song/funny beat every 60-90s · audience
+question every ~2 min with a 2s answer pause · key phrase repeated 3×.
 
-## 2. The Episode Structure (5-Minute Version — scale for 3 / 8 min)
+## 3. Conversation Scenes (Talking, v2)
+Long videos live or die on dialogue scenes. Build each one as:
+- **Establishing two-shot** (who + where, 1 short line)
+- **Close-up A** speaks (max 12 words) → **reaction shot** B (mouth closed, nod/gasp/giggle)
+- **Close-up B** replies → **two-shot** for the decision/laugh that ends the scene
+Use the Talking Prompt Formula (Master §7.1) for every spoken clip.
+No clip contains two speakers. Narrator lines (warm adult voice) may bridge
+scenes — mark them `NARRATOR` in the script table and use a scenic prompt
+(no character mouth moves during narration).
 
-| Scene | Time | Job |
-|-------|------|-----|
-| 1 | 0:00-0:30 | OPENING HOOK — funny entrance + today's big question |
-| 2 | 0:30-1:00 | HELLO & SONG — greeting song / repetition moment kids can join |
-| 3 | 1:00-1:30 | THE PROBLEM — gentle trouble appears, hero promises to help |
-| 4 | 1:30-2:30 | THE JOURNEY BEGINS — travel to Place 1, meet a new paper friend |
-| 5 | 2:30-3:00 | FUNNY SETBACK — a plan goes silly-wrong, giggles, try-again moment |
-| 6 | 3:00-3:45 | JOURNEY CONTINUES — Place 2, a clue / a helper / a song reprise |
-| 7 | 3:45-4:20 | TEAMWORK PLAN — everyone contributes one small kind action |
-| 8 | 4:20-4:45 | BIG HAPPY PAYOFF — the problem is solved, joyful paper celebration |
-| 9 | 4:45-5:00 | LESSON & GOODBYE — lesson line, calm closing, "See you in the next story!" |
+## 4. Episode Script Table (v2 format — mandatory)
+| # | Time | Scene/Shot | Who | Line | Expression/Gesture | SFX/Music | Subtitle (highlight word) | Transition |
+Fill every row. Dialogue pace: ~120 words per minute of episode, slower for age 3-4 (~90).
+Score the episode with the Master Rubric per scene; rewrite any scene under 4/5 on any row.
 
-Retention rules for young viewers:
-- A new place, character, song moment or funny beat every 60-90 seconds.
-- Ask the audience a simple question every ~2 minutes ("Can you see the red
-  paper fish? Say it with us!") and leave a 2-second pause in the script.
-- Repeat the episode's key phrase 3 times across the episode.
+## 5. Editing & Mixing Plan for Long Videos (always include)
+- Assemble scene by scene; J-cut dialogue (next speaker's voice starts 0.2s
+  before their shot) so conversations feel natural, never robotic.
+- Chapter markers every scene (for YouTube chapters in the description).
+- Music beds per mood (adventure / calm / celebration), ducked under voices;
+  1s music swell at the payoff; gentle fade for bedtime endings.
+- Sound design pass AFTER picture lock: paper rustles, pops, boings, sparkles,
+  crowd-of-friends giggles; no SFX louder than voices.
+- Subtitle pass last: 2-4 word chunks, keyword highlighted, consistent position.
+- Consistency check pass: character colours, voice profiles, catchphrases,
+  lesson wording identical at payoff and goodbye.
+- Export: 1920×1080, 30fps, H.264, ≈ -14 LUFS, plus a vertical 60s cut-down
+  (the episode's funniest scene) as a Short to promote the episode.
 
-## 3. Dialogue & Script Rules for Long Videos
-
-- Simple English, age 3-8. One speaker, one short line at a time.
-- Write the FULL script table: Time · Scene · Who · Line · Sound/Music note.
-- Include: 1 greeting song (4 lines, rhyming, to a familiar tune style),
-  1 counting / colours / words learning moment that fits the story naturally,
-  and the lesson line repeated at the payoff and again at goodbye.
-- Narration is allowed for scene bridges: warm, slow, smiling voice.
-
-## 4. Prompt Templates
-
-Style anchor (append to EVERY prompt, exactly):
-`Warm organic lighting, tactile paper textures, gentle camera pan, soft pastel color palette, whimsical and cozy atmosphere.`
-
-### Scene prompt template
+## 6. Consistency Lock (paste at top of every prompt pack)
 ```text
-Charming stop-motion animation in {SETTING}. Beautifully textured colored
-paper cutouts of {HERO CHARACTERS — same description sentence all episode}
-{ACTION}, {EMOTIONAL / FUNNY BEAT}. {PAPER WORLD DETAILS}.
-Transition in with a gentle paper fold wipe.
-Warm organic lighting, tactile paper textures, gentle camera pan, soft pastel color palette, whimsical and cozy atmosphere.
+EPISODE CONSISTENCY LOCK — identical in all clips:
+Characters: "origami paper {HERO} with {2-3 fixed details}, origami paper
+{FRIEND} with {2-3 fixed details}" · Voices: {HERO} = {voice profile},
+{FRIEND} = {voice profile} · World: everything made of colored paper ·
+Catchphrases: "{hero catchphrase}", "{friend catchphrase}"
 ```
 
-### Consistency lock (paste at the top of the delivered prompt pack)
-```text
-EPISODE CONSISTENCY LOCK — use the identical character sentence in all clips:
-"origami paper {HERO} with {2-3 fixed visual details}, and origami paper
-{FRIEND} with {2-3 fixed visual details}, in a world made entirely of
-colored paper"
-```
-
-## 5. Ready Example Outline (Fresh Story — NOT a birthday story)
-
-**Paw Patrol — "The Rainy Day Rescue Parade" · Long 5 min · 16:9**
-Story Mix: Paw Patrol + Rescue Mission + Origami Town in the Rain + Paper
-Ducklings Can't Cross the Puddle + Marshall's Umbrella Comedy + Kindness to
-Animals + Tiny Paper Parade
-
-1. Hook: Rain! Tiny paper ducklings are stuck on one side of a big paper puddle.
-2. Hello song: "Rain, rain, splish and splosh — we help friends, gosh oh gosh!"
-3. Problem: The ducklings' paper bridge has folded flat in the rain.
-4. Journey 1: Chase directs paper traffic; the team collects giant paper leaves.
-5. Setback: Marshall opens an umbrella — the wind flips it into a funny paper boat hat!
-6. Journey 2: A paper frog shows them the stepping-stone path.
-7. Teamwork: Leaf bridge + stepping stones + everyone holding paper-leaf umbrellas.
-8. Payoff: Ducklings cross safely, splashing happily. The sun returns — a paper rainbow!
-9. Lesson & goodbye: "Being kind to animals makes the whole town shine.
-   See you in the next story!"
-
-Each scene is then delivered as 3-4 full clip prompts (Section 4) with the
-full dialogue table — never deliver only this outline as the final output.
-
-## 6. Episode Publishing Pack (always include)
-- Title, thumbnail text (2-4 words), description with chapter timestamps,
-  5-8 hashtags, and a "Next episode idea" that uses a DIFFERENT Story Mix.
-- A series log line: `Episode # · Hero · Story Mix · Moral`.
+## 7. Worked Example Outline (v2 standard)
+**Paw Patrol — "The Rainy Day Rescue Parade" · 5 min · 16:9**
+Mix: Rescue + Origami Town Rain + Ducklings Can't Cross + Umbrella Comedy + Kindness to Animals + Paper Parade
+Key dialogue beats: Chase (clear, leader voice): "No job is too rainy!" ·
+Marshall (excited, clumsy-funny): "I'm okay! Even upside-down!" ·
+Lesson (Chase, close-up, payoff + goodbye): "Being kind to animals makes the whole town shine."
+Full delivery = 30 prompts in 10 scene batches + the complete Section 4 table
++ Section 5 editing plan — never deliver only this outline.
