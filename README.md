@@ -1,4 +1,6 @@
-# Kid Papercraft Story Studio
+# Kid Papercraft Story Studio — v2
+
+> **v2 upgrade:** real STORY (kahini) in every script, realistic TALKING characters, and a pro editing system. See `CHANGELOG.md` and the new docs: `SCRIPT_WRITING.md`, `TALKING_CHARACTERS.md`, `EDITING_GUIDE.md`, `SAMPLE_STORY_SCRIPT.md`.
 
 ### Create a magical origami stop-motion story video for kids — a brand-new adventure, funny moment and gentle lesson every single time, starring beloved animation heroes.
 
@@ -126,6 +128,10 @@ Every new request must produce a new story. If it ever repeats one, say
 │   └── kid-papercraft-long-video/   # Long 3 / 5 / 8 min episode skill
 ├── docs/
 │   ├── STORY_BANK.md                # Story Engine lists + 50 story ideas
+│   ├── SCRIPT_WRITING.md            # v2 Story (kahini) first script bible
+│   ├── TALKING_CHARACTERS.md        # v2 Realistic talking / lip-sync guide
+│   ├── EDITING_GUIDE.md             # v2 Pro editing, sound, subtitles, export
+│   ├── SAMPLE_STORY_SCRIPT.md       # v2 A complete script at the quality standard
 │   └── KID_SAFETY.md                # Kid-safety checklist
 ├── CHANGELOG.md                     # What changed vs. the original
 └── LICENSE                          # MIT

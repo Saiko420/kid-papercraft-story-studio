@@ -1,5 +1,14 @@
 # Changelog — Kid Papercraft → Kid Papercraft Story Studio
 
+## v2.0 — Story, Talking Characters & Pro Editing
+
+- **THE KAHINI RULE (highest priority):** every script must pass a 7-element story test — Hero's Want, the Heart, Obstacle 1, Obstacle 2 (worse), the Low Moment, a Climax Idea that uses something shown earlier, and a Payoff where someone has CHANGED. Scene collections without a story must be rewritten, never delivered.
+- **Script Writing Bible (new doc):** kahini-building, gentle suspense (one open question), emotion beats, dialogue fingerprints, weak-vs-strong examples, mandatory rewrite pass; rubric expanded to /40 with Kahini completeness as a must-pass.
+- **Realistic Talking Characters (new doc + skill system):** a Talking Prompt Formula (exact line in quotes, lip-sync, blinking, keyword gesture, listener reaction, closing pause), one speaker per clip, conversation shot language, per-character voice profiles, native/TTS/human voice workflows, lip-sync rescue fixes in editing, per-clip talking checklist.
+- **Pro Editing Guide (new doc + skill system):** assembly order, J/L-cuts for natural dialogue, pacing rules, paper transitions, sound-design library, music ducking and -14 LUFS loudness, subtitle system (2-4 word chunks, keyword highlight, safe zones), colour consistency, export settings for Shorts and Long, final QC checklist. Every skill output must now include an Editing Plan.
+- **Sample Story Script (new doc):** "Pipo Learns to Fly" — a complete 60s script at the new standard (kahini, emotion line, scored 38/40, talking prompts, editing plan) that all future outputs are measured against.
+- Short and Long skills upgraded to v2 (structures rebuilt around Obstacle 2 + Low Moment + Climax, talking and editing sections, v2 script tables).
+
 This repository is an edited, reworked version of the original
 [kid-papercraft](https://github.com/kaomei/kid-papercraft) by kaomei (MIT License).
 
